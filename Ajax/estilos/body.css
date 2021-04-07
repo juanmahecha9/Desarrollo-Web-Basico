@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(../fondos/e410d086c2432aa4f81438c83f2a8838.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+}
+/*# sourceMappingURL=body.css.map */

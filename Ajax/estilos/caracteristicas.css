@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+#contenedor {
+  width: 100%;
+  background-color: black;
+}
+
+#contenedor #especificaciones {
+  -webkit-box-shadow: -11px -15px 32px 2px #d1d1d1;
+  box-shadow: -11px -15px 32px 2px #d1d1d1;
+  background-color: #dbdbdb;
+  text-align: center;
+  margin: auto;
+  width: 65%;
+  border: 1px black solid;
+}
+
+#contenedor #especificaciones h1 {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+#contenedor #especificaciones .a1 {
+  margin: 0px 75px 0px 75px;
+  text-align: center;
+  margin-bottom: 45px;
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+}
+
+#contenedor #especificaciones h3 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-family: 'Indie Flower', cursive;
+}
+
+#contenedor #especificaciones h3 #click {
+  cursor: pointer;
+  color: blue;
+  font-family: 'Indie Flower', cursive;
+}
+
+#contenedor #especificaciones .contenido {
+  display: none;
+}
+
+#contenedor #especificaciones #contenido img {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+#contenedor #especificaciones #contenido p {
+  padding: 0 40px 0 40px;
+  text-align: justify;
+  margin-top: 15px;
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+}
+
+#contenedor #especificaciones #contenido h4 {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 45px;
+}
+
+#contenedor #especificaciones #contenido ol {
+  text-align: justify;
+  margin-left: 105px;
+}
+
+#contenedor #especificaciones #contenido ol li {
+  font-family: 'Caveat', cursive;
+  margin: 10px 0 10px 0;
+  font-size: 25px;
+}
+/*# sourceMappingURL=caracteristicas.css.map */

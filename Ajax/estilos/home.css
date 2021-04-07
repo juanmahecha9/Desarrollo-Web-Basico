@@ -1,0 +1,203 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Kaushan+Script&display=swap");
+.slider {
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: -10px;
+}
+
+.slider ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  width: 400%;
+  -webkit-animation: cambio 20s infinite alternate linear;
+          animation: cambio 20s infinite alternate linear;
+}
+
+.slider ul li {
+  width: 100%;
+  list-style: none;
+  margin: auto;
+  text-align: center;
+}
+
+.slider ul li img {
+  width: 50%;
+  height: 300px;
+}
+
+@-webkit-keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+.a1 {
+  width: 100%;
+}
+
+.a1 p {
+  font-family: 'Kaushan Script', cursive;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.a1 p span {
+  font-family: 'Kaushan Script', cursive;
+  color: red;
+  cursor: pointer;
+}
+
+#galeria {
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 20px 20px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-column-count: 3;
+          column-count: 3;
+  /* Espacio entre columnas */
+  -webkit-column-gap: 20px;
+  column-gap: 20px;
+}
+
+#galeria article {
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin: 0 0 20px 0;
+  text-align: center;
+  max-width: 100%;
+  -webkit-filter: opacity(90%);
+          filter: opacity(90%);
+  /*Evitamos que se corte al cambiar de columna*/
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+#galeria article img {
+  width: 450px;
+}
+
+#galeria article p {
+  color: whitesmoke;
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+}
+
+#galeria article:hover {
+  -webkit-transition: .5s all;
+  transition: .5s all;
+  -webkit-filter: opacity(100%);
+          filter: opacity(100%);
+}
+
+/* Móviles en horizontal o tablets en vertical */
+@media (max-width: 767px) {
+  #galeria {
+    -webkit-columns: 2;
+            columns: 2;
+  }
+}
+
+/* Móviles en vertical */
+@media (max-width: 480px) {
+  #galeria {
+    -webkit-columns: 1;
+            columns: 1;
+  }
+}
+
+table {
+  background: rgba(0, 0, 255, 0.7);
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+  border: 1px solid #fffdfd;
+  border-collapse: collapse;
+  color: whitesmoke;
+}
+
+table th {
+  margin: auto;
+  text-align: center;
+  border: 1px solid #fffdfd;
+  border-collapse: collapse;
+  color: whitesmoke;
+}
+
+table th {
+  color: whitesmoke;
+  padding: 5px;
+}
+
+table td {
+  margin: auto;
+  text-align: center;
+  border: 1px solid #fffdfd;
+  border-collapse: collapse;
+  color: whitesmoke;
+}
+
+table td {
+  color: whitesmoke;
+  padding: 5px;
+}
+/*# sourceMappingURL=home.css.map */

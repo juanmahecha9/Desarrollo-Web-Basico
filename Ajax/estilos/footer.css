@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap");
+#footer {
+  font-family: 'Indie Flower', cursive;
+  max-width: 100%;
+  background: url(../fondos/1019-1570x438.jpg) no-repeat bottom center;
+  -ms-background-size: cover;
+  background-size: cover;
+  margin: auto;
+}
+
+#footer #uno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#footer #uno #info {
+  width: 50%;
+}
+
+#footer #uno #info .list {
+  list-style: none;
+  margin-top: 50px;
+}
+
+#footer #uno #info .list li a {
+  text-decoration: none;
+  color: seashell;
+}
+
+#footer #uno #info .list li a:hover {
+  color: yellowgreen;
+}
+
+#footer #uno #info .list li {
+  margin: 10px;
+  text-align: center;
+}
+
+#footer #uno .noticias {
+  margin-top: 50px;
+  width: 50%;
+  text-align: center;
+  color: seashell;
+}
+
+#footer #uno .noticias .subscribe {
+  background-color: steelblue;
+  font-size: 20px;
+  color: white;
+}
+
+#footer #uno .noticias .subscribe:hover {
+  color: yellowgreen;
+  background-color: blue;
+}
+
+#footer p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=footer.css.map */

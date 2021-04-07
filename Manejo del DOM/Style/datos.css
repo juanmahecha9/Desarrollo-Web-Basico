@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Liu+Jian+Mao+Cao&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sunshiney&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+}
+
+#main {
+  width: 100%;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px black hidden;
+}
+
+#main #datosUsuario {
+  border: whitesmoke 1px solid;
+  float: left;
+  width: 30%;
+}
+
+#main #datosUsuario .uno {
+  background-color: rgba(230, 212, 14, 0.9);
+}
+
+#main #datosUsuario .uno .usuario {
+  color: whitesmoke;
+  margin-top: 1px;
+}
+
+#main #datosUsuario .uno .usuario .icono {
+  color: whitesmoke;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+#main #datosUsuario .uno .usuario .icono h1 {
+  font-family: "Sedgwick Ave Display", cursive;
+  text-align: center;
+}
+
+#main #datosUsuario .uno .usuario .icono img {
+  width: 50%;
+  border-radius: 80px;
+}
+
+#main #datosUsuario .uno .usuario .icono h3 {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 45px;
+}
+
+#main #datosUsuario .uno .usuario .icono h4 {
+  font-family: "Sedgwick Ave Display", cursive;
+  margin: 15px;
+  font-size: 25px;
+}
+
+#main #datosUsuario .dos {
+  background-color: rgba(120, 120, 120, 0.9);
+}
+
+#main #datosUsuario .dos .myList {
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#main #datosUsuario .dos .myList #addW {
+  text-align: center;
+  width: 20%;
+  height: 40px;
+  margin: auto;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  background-color: dodgerblue;
+  background: -webkit-gradient(linear, left top, right top, from(#2bbbfe), to(#66bb6a));
+  background: linear-gradient(to right, #2bbbfe, #66bb6a);
+  border: none;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#main #datosUsuario .dos .listaCosas {
+  color: whitesmoke;
+  text-align: center;
+  font-family: "Sunshiney", cursive;
+  font-size: 42.7px;
+}
+
+#main #datosUsuario .dos .listaCosas ul {
+  color: whitesmoke;
+  margin-top: 45px;
+}
+
+#main #datosUsuario .dos .listaCosas ul li {
+  list-style: none;
+  margin: 2px;
+  padding: 25px;
+}
+
+#main #datosUsuario .dos .listaCosas ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#main #tareas {
+  border: whitesmoke 1px solid;
+  color: black;
+  width: 70%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main #tareas h2 {
+  margin-top: 45px;
+  margin-bottom: 2px;
+  font-size: 50px;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+#main #tareas .ingresoTareas {
+  margin-top: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main #tareas .ingresoTareas #tarea {
+  margin-top: 50px;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 40%;
+  border-radius: 15px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#main #tareas .ingresoTareas #add {
+  text-align: center;
+  width: 20%;
+  height: 40px;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  background-color: dodgerblue;
+  background: -webkit-gradient(linear, left top, right top, from(#2bbbfe), to(#66bb6a));
+  background: linear-gradient(to right, #2bbbfe, #66bb6a);
+  border: none;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#main #tareas #pendientes {
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+#main #tareas #pendientes .textoDiv {
+  margin: auto;
+  margin-top: 45px;
+  width: 50%;
+  border: 1px black hidden;
+}
+
+#main #tareas #pendientes .textoDiv .texto {
+  margin-left: 25px;
+  margin-right: 50px;
+  margin-top: 15px;
+  font-size: 35px;
+  border-radius: 15px;
+}
+
+#main #tareas #pendientes .textoDiv button {
+  cursor: progress;
+  font-size: 25px;
+  font-size: 25px;
+  width: 25%;
+  border-radius: 15px;
+  background: black;
+  color: whitesmoke;
+}
+
+#main #tareas #pendientes .textoDiv input[type=checkbox] + label {
+  color: black;
+  font-style: italic;
+}
+
+#main #tareas #pendientes .textoDiv input[type=checkbox]:checked + label {
+  color: chartreuse;
+  font-style: normal;
+}
+/*# sourceMappingURL=datos.css.map */

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .uno,
+        .dos,
+        .tres {
+            padding: 15px;
+            width: 50%;
+            border: 2px black solid;
+        }
+
+        input,
+        button {
+            font-size: 20px;
+        }
+
+        #display,
+        #display3 {
+            font-size: 25px;
+            list-style-type: lower-greek;
+        }
+    </style>
+</head>
+
+<body>
+
+    <center>
+        <br>
+        <br>
+        <br>
+        <div class="uno">
+            <h3>Crear un script que muestre una palabra o frase ingresada al revés y que indique cuántas
+                letras y espacios tiene.</h3>
+            <label><input id="txt" type="text" placeholder="Ingrese texto"></label>
+            <button id="btn">ENVIAR</button>
+            <div id="display">
+                <p id="texto">
+                </p>
+                <p id="texto1">
+                </p>
+                <p id="texto2">
+                </p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="dos">
+            <h3>Realiza un script que pida una cadena de texto y la muestre poniendo el signo – entre cada
+                carácter. Si la cadena contiene un espacio, éste debe ser reemplazado con el siguiente
+                símbolo --</h3>
+            <label><input id="txt1" type="text" placeholder="Ingrese texto"></label>
+            <button id="btn1">ENVIAR</button>
+            <div id="display">
+                <p id="texto3">
+                </p>
+                <p id="texto4">
+                </p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="tres">
+            <h3>Crear un algoritmo que almacene una lista de nombres en un arreglo y luego ordenarlos
+                alfabéticamente.</h3>
+            <label><input id="txt2" type="text" placeholder="Ingrese texto"></label>
+            <button id="btn2">ENVIAR</button>
+            <div id="display3">
+
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="button" value="Actualizar" onclick="location.reload()" />
+
+    </center>
+    <script src="./script/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Kaushan+Script&display=swap');
+
+.slider {
+    width     : 50%;
+    margin    : auto;
+    overflow  : hidden;
+    margin-top: -10px;
+
+    ul {
+        display  : flex;
+        padding  : 0;
+        width    : 400%;
+        animation: cambio 20s infinite alternate linear;
+
+        li {
+            width     : 100%;
+            list-style: none;
+            margin    : auto;
+            text-align: center;
+
+            img {
+                width: 50%;
+                height: 300px * 1;
+            }
+        }
+            }
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+.a1 {
+    width: 100%;
+
+    p {
+        font-family: 'Kaushan Script', cursive;
+        width      : 50%;
+        margin     : auto;
+        text-align : center;
+        font-size  : 30px;
+        color      : whitesmoke;
+
+        span {
+            font-family: 'Kaushan Script', cursive;
+            color      : red;
+            cursor     : pointer;
+        }
+    }
+}
+
+//galeria calificacion terminales
+#galeria {
+    margin      : 1rem auto;
+    width       : 100%;
+    max-width   : 100%;
+    padding     : 0 20px 20px 20px;
+    box-sizing  : border-box;
+    column-count: 3; // establece 3 columnas
+
+    /* Espacio entre columnas */
+    -moz-column-gap   : 20px;
+    -webkit-column-gap: 20px;
+    column-gap        : 20px;
+
+    //Contenedor de las imagenes
+    article {
+        color           : whitesmoke;
+        background-color: rgba($color: #000000, $alpha: 0.4);
+        border-radius   : 20px;
+        border          : 1px solid #ccc;
+        margin          : 0 0 20px 0;
+        text-align      : center;
+        max-width       : 100%;
+        filter          : opacity(90%);
+
+        /*Evitamos que se corte al cambiar de columna*/
+        break-inside     : avoid;
+        page-break-inside: avoid;
+
+        img {
+            width: 450px
+        }
+
+        p {
+            color      : whitesmoke;
+            font-family: 'Caveat', cursive;
+            font-size  : 25px;
+
+        }
+
+    }
+
+    article:hover {
+        transition: .5s all;
+        filter    : opacity(100%);
+    }
+}
+
+
+/* Móviles en horizontal o tablets en vertical */
+@media (max-width: 767px) {
+    #galeria {
+        columns: 2;
+    }
+
+}
+
+/* Móviles en vertical */
+
+@media (max-width: 480px) {
+    #galeria {
+        columns: 1;
+    }
+}
+
+
+table {
+    background     : rgba(blue, 0.7);
+    margin         : auto;
+    margin-top     : 25px;
+    text-align     : center;
+    border         : 1px solid rgb(255, 253, 253);
+    border-collapse: collapse;
+    color          : whitesmoke;
+
+    th {
+        margin         : auto;
+        text-align     : center;
+        border         : 1px solid rgb(255, 253, 253);
+        border-collapse: collapse;
+        color          : whitesmoke;
+
+        & {
+            color  : whitesmoke;
+            padding: 5px;
+        }
+    }
+
+    td {
+        margin         : auto;
+        text-align     : center;
+        border         : 1px solid rgb(255, 253, 253);
+        border-collapse: collapse;
+        color          : whitesmoke;
+
+        & {
+            color  : whitesmoke;
+            padding: 5px;
+        }
+    }
+
+}
